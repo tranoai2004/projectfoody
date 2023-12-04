@@ -10,7 +10,7 @@
         "
         >
         <section class="contact">
-            <p><strong>FOODY</strong> chuyên cung cấp các món ăn vặt ngon ngon chất lượng #1, các món ăn vặt phổ biến nhất như: cơm cháy chà bông, khô bò, khồ gà, mực xé sợi, rong biển,...</p>
+            <p ><strong style="color: #772f2d;">FOODY</strong> chuyên cung cấp các món ăn vặt ngon ngon chất lượng #1, các món ăn vặt phổ biến nhất như: cơm cháy chà bông, khô bò, khồ gà, mực xé sợi, rong biển,...</p>
             <p>Địa chỉ: 124/49 Hòe Thị, Phương Canh, Nam Từ Niêm, Hà Nội</p>
             <p>Điện thoại: 035.37.12.030</p>
             <p>Email : tranbaoai2004@gmail.com</p>
@@ -18,7 +18,7 @@
         <section class="contact-form">
             <form action="index.php?act=addlh" method="post">
                 <h1 style="font-size:30px;
-                margin-bottom:20px;">Liên hệ với chúng tôi</h1>
+                margin-bottom:20px; color: #772f2d;">Liên hệ với chúng tôi</h1>
                 <div class="row-form">
                     <div>
                     <label for="">Họ và tên</label>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <label for="">Nội dung</label><textarea name="noidung" id="" cols="30" rows="10"></textarea>
-                <button name="themmoi-lh">GỬI TIN NHẮN</button>
+                <button name="themmoi-lh"><a href="index.php?act=lienhe" style="text-decoration: none; color:white;">GỬI TIN NHẮN</a></button>
             </form>
         </section>
         </main>

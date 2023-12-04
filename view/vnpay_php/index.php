@@ -13,6 +13,14 @@
         <!-- Custom styles for this template -->
         <link href="./assets/jumbotron-narrow.css" rel="stylesheet">  
         <script src="./assets/jquery-1.11.3.min.js"></script>
+        <style>
+            .container{
+                width: 500px;
+                border: 1px solid black;
+                border-radius: 10px;
+                height: 600px;
+            }
+        </style>
     </head>
 
     <!-- https://sandbox.vnpayment.vn/merchantv2/Transaction/SearchRefund.htm -->
@@ -21,9 +29,9 @@
         <?php require_once("./config.php"); ?>             
         <div class="container">
             <div class="header clearfix">
-                <h3 class="text-muted">VNPAY DEMO</h3>
+                <h3 class="text-muted" align="center">VNPAY DEMO</h3>
             </div>
-            <h3>Tạo mới đơn hàng</h3>
+            <h3 align="center">Tạo mới đơn hàng</h3>
             <div class="table-responsive">
                 <form action="vnpay_create_payment.php" id="create_form" method="post">       
 

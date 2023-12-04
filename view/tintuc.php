@@ -27,7 +27,7 @@
                                 <h2>Những loại cơm cháy hấp dẫn, gây nghiện nhất hiện nay</h2>
                         </div>
                         <div class="text-post">
-                            <i class="fa-solid fa-calendar-days"></i> 22/11/2022
+                            <i class="fa-solid fa-calendar-days"></i> 22/11/2023
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         </div>
                         
                         <div class="text-post">
-                            <i class="fa-solid fa-calendar-days"></i> 22/11/2022
+                            <i class="fa-solid fa-calendar-days"></i> 22/11/2023
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                          
                         </div>
                         <div class="text-post">
-                            <i class="fa-solid fa-calendar-days"></i> 22/11/2022
+                            <i class="fa-solid fa-calendar-days"></i> 22/11/2023
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                             
                         </div>
                         <div class="text-post">
-                            <i class="fa-solid fa-calendar-days"></i> 22/11/2022
+                            <i class="fa-solid fa-calendar-days"></i> 22/11/2023
                         </div>
                     </div>
                 
@@ -93,7 +93,7 @@
                             
                         </div>
                         <div class="text-post">
-                            <i class="fa-solid fa-calendar-days"></i> 22/11/2022
+                            <i class="fa-solid fa-calendar-days"></i> 22/11/2023
                         </div>
                     </div>
                 </div>

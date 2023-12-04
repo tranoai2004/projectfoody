@@ -13,6 +13,14 @@
         <!-- Custom styles for this template -->
         <link href="./assets/jumbotron-narrow.css" rel="stylesheet">         
         <script src="./assets/jquery-1.11.3.min.js"></script>
+        <style>
+            .container{
+                width: 500px;
+                border: 1px solid black;
+                border-radius: 10px;
+                height: 600px;
+            }
+        </style>
     </head>
     <body>
         <?php
@@ -43,7 +51,7 @@
         <!--Begin display -->
         <div class="container">
             <div class="header clearfix">
-                <h3 class="text-muted">VNPAY RESPONSE</h3>
+                <h3 class="text-muted" align="center">VNPAY RESPONSE</h3>
             </div>
             <div class="table-responsive">
                 <div class="form-group">

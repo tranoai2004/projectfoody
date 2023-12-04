@@ -27,7 +27,18 @@
                     </div>
                     <div class="row mb">
                         Password
-                        <input type="text" name="pass" value="<?=$pass?>" required>
+                        <input type="password" name="pass" value="<?=$pass?>" required id="pass">
+                        <input type="checkbox" onclick="showPassword()"> Show Password
+                        <script>
+                        function showPassword() {
+                            var pass = document.getElementById("pass");
+                            if (pass.type === "password") {
+                                pass.type = "text";
+                            } else {
+                                pass.type = "password";
+                            }
+                        }
+                        </script>
                     </div>
                     <div class="row mb">
                         Địa chỉ

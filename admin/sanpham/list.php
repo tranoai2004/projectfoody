@@ -47,7 +47,24 @@
                                             }
                                             ?>
                                                 <tr>
-                                                    <td><input type="checkbox" name="approve[]" id=""></td>
+                                                    <td><input type="checkbox" name="approve[]" id="myCheck" onclick="myFunction()">
+                                                        <p id="text" style="display:none">Checkbox is CHECKED!</p>
+                                                    <script>
+                                                        function myFunction() {
+                                                        // Get the checkbox
+                                                        var checkBox = document.getElementById("myCheck");
+                                                        // Get the output text
+                                                        var text = document.getElementById("text");
+
+                                                        // If the checkbox is checked, display the output text
+                                                        if (checkBox.checked == true){
+                                                            text.style.display = "block";
+                                                        } else {
+                                                            text.style.display = "none";
+                                                        }
+                                                        }
+                                                    </script>
+                                                    </td>
                                                     <td><?=$id?></td>
                                                     <td><?=$name?></td>
                                                     <td></td>

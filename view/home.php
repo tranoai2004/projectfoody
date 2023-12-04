@@ -48,7 +48,7 @@
                 <div style="background-color: white;color: #772f2d;" >
                 
                     <marquee behavior="Scroll" scrollamount="12" sytle="" direction="">
-                        <span style="font-size: 2vh">Chương trình giảm giá 30% nhân dịp khai trương shop diễn ra từ 1/12 đến 31/12 << Mua ngay >></span>
+                        <span style="font-size: 2vh">Chương trình giảm giá 30% nhân dịp khai trương shop diễn ra từ 20-11 đến 25/12 << Mua ngay >></span>
                     </marquee>
                     
                 </div>
@@ -87,7 +87,7 @@
                                             <input type="hidden" name="img" value="'.$img.'">
                                             <input type="hidden" name="soluong" value="1">
                                             <input type="hidden" name="price" value="'.$price.'">
-                                            <input type="submit" name="addtocart" id="addtocart" value="Thêm vào giỏ hàng">
+                                            <input type="submit" name="addtocart" id="addtocart" value="Thêm vào giỏ hàng" style="font-size: 1vw;">
                                         </form>
                                     </a>
                                 </div>
@@ -136,7 +136,7 @@
                                             <img class="sp9-anh"  src="'.$img.'" alt="">
                                         </div>
                                     </div>
-
+                                    
                                     <div style="width:100%">
                                         <span style="color:black;">'.$name.'</span>
                                         <br>

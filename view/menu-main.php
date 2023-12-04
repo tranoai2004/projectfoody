@@ -1,4 +1,4 @@
-<div class="row menu-main">
+<div class="row menu-main" id="myHeader">
         <ul class="nav">
             <li><a class="home" href="index.php">Trang chủ</a></li>
             <li>
@@ -21,7 +21,6 @@
             <li><a class="introduce" href="index.php?act=gioithieu">Giới thiệu</a></li>
             <li><a class="news" href="index.php?act=tintuc">Tin tức</a></li>
             <li><a class="contact" href="index.php?act=lienhe">Liên hệ</a></li>
-            <li><a href="index.php?act=addtocart">Giỏ hàng</a></li>
         </ul>    
 
     <div class="">

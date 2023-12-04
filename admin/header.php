@@ -12,10 +12,10 @@
 <body>
     <div class="boxcenter">
         <!-- <div class="mb20 headeradmin dis-flex"> 
-            <div> Trang quản trị</div>
+            <h1>Trang Quản Trị Foody</h1>
             <div class="dis-flex">
                 <i class="fa-regular fa-circle-user"></i>
-                Xin chào: <div>Nguyễn Đoàn</div>
+                <span style="color:gray">Xin chào: <strong style="color: white;">ADMIN</strong></span>
             </div>
         </div> -->
 

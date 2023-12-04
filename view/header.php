@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="container">
+            
     <div class="change">
         <div class="langWrap">
             <a href="#" language='english' class="active">EN</a>
@@ -22,6 +23,8 @@
                 <h1 class="time" style="font-size: 0.9vw;margin: 0">Thời gian hoạt động:  09:00 - 22:00 mỗi ngày </h1>
                 
                 <a href="index.php"><img style="width:100px" src="./images/logo-nhom.jpg" alt=""></a>
+                
+
                 <div style="display: flex;justify-content: space-between;align-items: center;color: #772f2d;">
                     <h2 style="font-size: 0.9vw;margin-left:65px">Hotline: 035.37.12.030</h2>
                     <a class="giohang" href="index.php?act=addtocart"><i alt="Giỏ hàng" style="margin-left:15px;font-size:25px" class="fa-solid fa-bag-shopping"></i></a>

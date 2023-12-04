@@ -62,7 +62,7 @@
                         <table>
                             <tr>
                                 <td><input type="radio" name="pttt" checked value="Trả tiền khi nhận hàng"> Trả tiền khi nhận hàng</td>
-                                <td><input type="radio" name="pttt"> Chuyển khoản ngân hàng</td>
+                                <!-- <td><input type="radio" name="pttt"> Chuyển khoản ngân hàng</td> -->
                                 <td class="vnpay"><a href="./view/vnpay_php/index.php" >Thanh toán - VNPay </a></td>
                                 <!-- <td><input type="radio" name="pttt"> Thanh toán online</td> -->
                             </tr>

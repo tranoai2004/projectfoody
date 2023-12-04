@@ -165,15 +165,15 @@
         <div class="grid">
           <div class="member">
             <img style="width: 200px;height: 300px" src="./images/sv1.jpg" alt="">
-            <p class="name"> Nguyễn Sỹ Long </p>
+            <p class="name"> Trần Bá Oai </p>
             <p class="role">Chức vụ :Coder, Trưởng Nhóm </p>
-            <p class="email"> Email : longnsph43473@fpt.edu.vn</p>
+            <p class="email"> Email : oaitbph36440@fpt.edu.vn</p>
           </div>
           <div class="member">
             <img style="width: 200px;height: 300px" src="./images/sv2.jpg" alt="">
-            <p class="name"> Trần Bá Oai </p>
+            <p class="name"> Nguyễn Sỹ Long</p>
             <p class="role">Chức vụ :Quản Lý, Coder </p>
-            <p class="email"> Email : oaitbph36440@fpt.edu.vn</p>
+            <p class="email"> Email : longnsph43473@fpt.edu.vn</p>
           </div>
           <div class="member">
             <img style="width: 200px;height: 300px" src="./images/sv3.png" alt="">

@@ -29,11 +29,22 @@
                     </div>
                     <div class="row mb">
                         Address
-                        <input type="text" name="address" required>
+                        <input type="text" name="address" required placeholder="Địa Chỉ">
                     </div>
                     <div class="row mb">
                         Password
-                        <input type="password" name="pass" required>
+                        <input type="password" name="pass" required placeholder="Mật Khẩu" id="pass">
+                        <input type="checkbox" onclick="showPassword()"> Show Password
+                    <script>
+                        function showPassword() {
+                            var pass = document.getElementById("pass");
+                            if (pass.type === "password") {
+                                pass.type = "text";
+                            } else {
+                                pass.type = "password";
+                            }
+                        }
+                    </script>
                     </div>
                         <!-- Loại tài khoản O là tài khoản của khách-->
                         <input type="number" name="role" value="0" disabled hidden>
