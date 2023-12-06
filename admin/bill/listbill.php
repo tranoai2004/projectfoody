@@ -30,6 +30,7 @@
                                             extract($bill);
                                             $ctbill = "index.php?act=ctbill&idbill=".$id;
                                             $xoabill = "index.php?act=xoabill&id=".$id;
+                                            $huybill = "index.php?act=huybill&id=".$id;
                                             $suabill = "index.php?act=suabill&id=".$id;
                                             
                                             $kh=$bill["bill_name"].'<br> '.$bill["bill_email"].'<br> '.$bill["bill_address"].'<br> '.$bill["bill_tel"];
@@ -54,6 +55,7 @@
                                                         <a href="<?=$suabill?>"><input style="margin-bottom:10px ;" type="button" type="button" value="Sửa"></a> 
                                                         <a  href="<?=$xoabill?>"><input style="margin-bottom:10px ;" type="button" value="Xóa" onclick="return confirm('Bạn có chắc chắn muốn xóa?')"></a>
                                                         <a href="<?=$ctbill?>"><input name="goct" type="button" value="Chi tiết"></a>
+                                                        <a href="<?=$huybill?>"><input name="hdh" type="button" value="Hủy Đơn Hàng"></a>
                                                         
                                                     </td>
                                                     <td></td>
