@@ -14,8 +14,9 @@
                                             }
                                         ?>
                                     </select>
+                                    <input class="tk-form-bt" type="submit" name="listok" value="Check">
                                 </div>
-                                <input class="tk-form-bt" type="submit" name="listok" value="Check">
+                                
                 </form>
                 <div class="row frmcontent">
                     <form action="#" method="post">

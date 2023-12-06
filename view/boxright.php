@@ -16,7 +16,7 @@
                     <li><a class="forgot" href="index.php?act=quenmk" style="font-size: 1vw;">> Quên mật khẩu</a></li>
                     <li><a class="update" href="index.php?act=edit_taikhoan" style="font-size: 1vw;">> Cập nhật tài khoản</a></li>
                     <?php if($role == 1){ ?>
-                    <li><a class="loginAdmin" href="admin/index.php?act=adddm" style="font-size: 1vw;">> Đăng nhập Admin</a></li>
+                    <li><a class="loginAdmin" href="admin/index.php?act=bieudo" style="font-size: 1vw;">> Đăng nhập Admin</a></li>
                     <?php } ?>
                     <li><a class="logOut" href="index.php?act=thoat" style="font-size: 1vw;">> Đăng xuất</a></li>
                 </div>
@@ -28,12 +28,12 @@
             <form action="index.php?act=dangnhap" method="post">
                 <div class="row mb10">
                     <div class="username" style="font-size: 1vw;">Tên đăng nhập</div>
-                    <input  type="text" name="user" >
+                    <input  type="text" name="user" require>
                 </div>
                 
                 <div class="row mb10">
                     <div class="password" style="font-size: 1vw;">Mật khẩu</div>
-                    <input type="password" name="pass" id="pass"><br>
+                    <input type="password" name="pass" id="pass" require><br>
                     <input type="checkbox" onclick="showPassword()"> Show Password
                     <script>
                         function showPassword() {

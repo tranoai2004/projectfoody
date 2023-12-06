@@ -17,11 +17,27 @@
         ?>
         <div class="row mb">
             <div class="boxtitle">THÔNG TIN ĐƠN HÀNG</div>
-            <div class="row boxcontent" style="text-align:center">
-                <li>- Mã đơn hàng: <?=$bill['id'];?></li> 
-                <li>- Ngày đặt hàng: <?=$bill['ngaydathang'];?></li> 
-                <li>- Tổng đơn hàng: <?=$bill['total'];?></li> 
-                <li>- Phương thức thanh toán: <?=$bill['bill_pttt'];?> <br>0:Trả tiền khi nhận hàng 1:Chuyển khoản ngân hàng 2:Thanh toán online</li>
+            <div class="row boxcontent billform">
+                <table>
+
+                    <tr>
+                        <td><li>Mã đơn hàng:</li></td>
+                        <td><?=$bill['id'];?></td>
+                    </tr>
+                    <tr>
+                        <td><li>Ngày đặt hàng:</li></td>
+                        <td><?=$bill['ngaydathang'];?></td>
+                    </tr>
+                    <tr>
+                        <td><li>Tổng đơn hàng:</li></td>
+                        <td><?=$bill['total'];?></td>
+                    </tr>
+                    <tr>
+                        <td><li>Phương thức thanh toán:</li></td>
+                        <td><?=$bill['bill_pttt'];?>(0:Trả tiền khi nhận hàng 1:Thanh Toán Qua Vnpay)</td>
+                    </tr>
+                </table>
+                
             </div>
         </div>
      
@@ -32,19 +48,19 @@
                 <table>
 
                     <tr>
-                        <td>Người đặt hàng</td>
+                        <td><li>Người đặt hàng</li></td>
                         <td><?=$bill['bill_name'];?></td>
                     </tr>
                     <tr>
-                        <td>Địa chỉ</td>
+                        <td><li>Địa chỉ</li></td>
                         <td><?=$bill['bill_address'];?></td>
                     </tr>
                     <tr>
-                        <td>Email</td>
+                        <td><li>Email</li></td>
                         <td><?=$bill['bill_email'];?></td>
                     </tr>
                     <tr>
-                        <td>Điện thoại</td>
+                        <td><li>Điện thoại</li></td>
                         <td><?=$bill['bill_tel'];?></td>
                     </tr>
                 </table>
@@ -62,7 +78,9 @@
                       </table>
                       </div>
             </div>
-
+        <div class="row mb bill dongydathang1">
+            <a class="myCart" href="index.php?act=mybill" style="font-size: 1vw;">> Đơn hàng của tôi</a>
+        </div>
         
     </div>
     <div class="boxphai">
